@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="emi.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EMI CALCULATOR</h1>
+        <form id="emical">
+            <div class="card">
+                <label for="loanamount">Loan Amount:</label>
+            <input type="text" placeholder="Enter the loan Amount" id="box1">
+            </div>
+            <div class="card">
+                <label for="interest">Interest:</label>
+            <input type="text" placeholder="Enter the Interset" id="box2">
+            </div>
+            <div class="card">
+                <label for="loantenure">Loan Tenure(Year):</label>
+            <input type="type" placeholder="Enter the years" id="box3">
+            </div>
+            <div class="card">
+                <label for="loantenure">Monthly EMI:</label>
+                <input type="text"  id="box4">
+            </div>
+            <div class="card">
+                <label for="loantenure">Total Payment:</label>
+                <input type="text"  id="box5">
+            </div>
+            <div class="card">
+                <label for="loantenure">Total Interest:</label>
+                <input type="text"  id="box6">
+            </div>
+            <p class="graph"></p>
+            <button class="calculate" type="submit">Calculate</button>
+            <button class="btn">🌙</button>
+
+        </form>
+       
+    </div>
+    <script src="emi.js"></script>
+</body>
+</html>
